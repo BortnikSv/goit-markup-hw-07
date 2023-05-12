@@ -264,7 +264,6 @@ img {
   }
 }
 
-
 .tel-email-item {
     margin-right: 40px;
 }
@@ -1562,16 +1561,12 @@ display: none;
         border-radius: 50%;
         outline: none;
     }
+
   
     @media (min-width: 768px) {
         .menu-toggle {
         display: none;
         }
-    }
-  
-    .menu-toggle:hover,
-    .menu-toggle:focus {
-        background-color: rgba(0, 0, 0, 0.1);
     }
   
     .menu-container {
