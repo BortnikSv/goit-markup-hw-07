@@ -308,7 +308,6 @@ img {
     background-position: center;
 }
 
-
 @media screen and (min-width: 325px) and (max-width: 767px) {
     .hero {
         max-width: 428px;
@@ -317,14 +316,13 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg-mobile@1x.jpg);
     }
-}
-
 @media (min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/hero-bg-mobile@2x.jpg);
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg-mobile@2x.jpg);
+        }
     }
 }
 
@@ -334,14 +332,13 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg-tab@1x.jpg);
     }
-}
-
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-bg-tab@2x.jpg);
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg-tab@2x.jpg);
+        }
     }
 }
 
@@ -353,17 +350,15 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);
   }
-}
-
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-bg-desc@2x.jpg);
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg-desc@2x.jpg);
+        }
     }
 }
-
 
 .hero-title {
     margin-right: auto;
@@ -1250,8 +1245,7 @@ display: none;
     }
 }
 
-
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 1158px) {
     .portfolio-item {
         width: calc((100% - 48px) / 3);
     }
