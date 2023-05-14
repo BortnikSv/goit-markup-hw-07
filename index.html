@@ -420,7 +420,7 @@
         </section>
         <!-- Customers section -->
         <section class="clients">
-            <div class="container">
+            <div class="container customers-container">
             <h2 class="clients-title second-header">Customers</h2>
             <ul class="clients-list list">
                 <li class="clients-item"><a href="" class="clients-link">
@@ -518,7 +518,9 @@
             <div class="footer-from-wrapper">
                 <p class="footer-form-text">Subscribe</p>
                 <form class="footer-form">
-                    <input type="email" class="footer-email-input" name="user_subscribe_email" placeholder="E-mail">
+                    <label class="subscribe-label">
+                        <input type="email" class="footer-email-input" name="user_subscribe_email" placeholder="E-mail">
+                    </label>
                     <button type="submit" class="footer-send-btn btn">Subscribe
                         <svg class="footer-send-icon" width="24" height="20">
                             <use href="./images/icons.svg#icon-send"></use>
@@ -549,10 +551,10 @@
         </li>
         </ul>
         <ul class="mobile-contacts list">
-            <li>
+            <li class="mobile-contacts-item">
                 <a class="mobile-contacts-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
-            <li>
+            <li class="mobile-contacts-item">
                 <a class="mobile-contacts-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
         </ul>
